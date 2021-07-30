@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!--==================== Font Awesome ====================-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+
     <!--==================== UNICONS ====================-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
@@ -14,7 +18,7 @@
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="assets/css/styles.css">
 
-    <title>Responsive Portfolio Website</title>
+    <title> Portfolio </title>
 </head>
 
 <body>
@@ -70,7 +74,7 @@
                     <span class="close">&times;</span>
                     <div class="modal-content">
 
-                        <input type="range" id="color" name="vol" min="250" max="359">
+                        <input type="range" id="color" name="vol" min="0" max="359" value=250>
                         <div id="demo">250</div>
                     </div>
 
@@ -118,7 +122,7 @@
                     </div>
                     <div class="home__data">
                         <h1 class="home__title">Hi, I'm Rahul</h1>
-                        <h3 class="home__subtitle">Frontend developer</h3>
+                        <h3 class="home__subtitle">FullStack developer</h3>
                         <p class="home__description">High level experience in web design and development knowledge,
                             producing quality work</p>
                         <a href="#contact" class="button button--flex">
@@ -501,10 +505,6 @@
                                     <i class="uil uil-check-circle services__modal-icon"></i>
                                     <p>I create ux element interactions.</p>
                                 </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>I position your company.</p>
-                                </li>
                             </ul>
                         </div>
                     </div>
@@ -512,7 +512,7 @@
                 <!--==================== SERVICES 2====================-->
                 <div class="services__content">
                     <div>
-                        <i class="uil uil-arrow services__icon"></i>
+                        <i class="fab fa-react services__icon"></i>
                         <h3 class="services__title">Frontent <br> Developer</h3>
                     </div>
                     <span class="button button--flex button--small button--link services__button">
@@ -526,19 +526,20 @@
                             <ul class="services__modal-services grid">
                                 <li class="services__modal-service">
                                     <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>I develop the user interface.</p>
+                                    <p>I create lot of webapp using React and Redux</p>
+
                                 </li>
                                 <li class="services__modal-service">
                                     <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Web page development.</p>
+                                    <p>2+yrs of handon experience in react </p>
                                 </li>
                                 <li class="services__modal-service">
                                     <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>I create ux element interactions.</p>
+                                    <p>I develop the Ecommerce website handle data send to the another components</p>
                                 </li>
                                 <li class="services__modal-service">
                                     <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>I position your company.</p>
+                                    <p>Good Knowledge of handling api in frontend</p>
                                 </li>
                             </ul>
                         </div>
@@ -547,8 +548,8 @@
                 <!--==================== SERVICES 3====================-->
                 <div class="services__content">
                     <div>
-                        <i class="uil uil-pen services__icon"></i>
-                        <h3 class="services__title">Branding <br> Designer</h3>
+                        <i class="fab fa-python services__icon"></i>
+                        <h3 class="services__title">Python <br> Developer</h3>
                     </div>
                     <span class="button button--flex button--small button--link services__button">
                         View More
@@ -556,24 +557,59 @@
                     </span>
                     <div class="services__modal">
                         <div class="services__modal-content">
-                            <h4 class="services__modal-title">Branding <br> Designer</h4>
+                            <h4 class="services__modal-title">Python <br> Developer</h4>
                             <i class="uil uil-times services__modal-close"></i>
                             <ul class="services__modal-services grid">
                                 <li class="services__modal-service">
                                     <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>I develop the user interface.</p>
+                                    <p>I develop webapp using Django</p>
                                 </li>
                                 <li class="services__modal-service">
                                     <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Web page development.</p>
+                                    <p>Good Knowledge Django Rest Framework</p>
                                 </li>
                                 <li class="services__modal-service">
                                     <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>I create ux element interactions.</p>
+                                    <p>I create api and authenticated using Jsonwebtoken (JWT)</p>
                                 </li>
                                 <li class="services__modal-service">
                                     <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>I position your company.</p>
+                                    <p>good knowledge of ORM model</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--==================== SERVICES 4====================-->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-database services__icon"></i>
+                        <h3 class="services__title">DataBase <br> DSA </h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services__button">
+                        View More
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Database <br> DSA</h4>
+                            <i class="uil uil-times services__modal-close"></i>
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>good knowledge of management of database</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I have problem-solving skills</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                <li> knowledge of analyzing time complexity</li>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>understanding of nosql and mysql database concept</p>
                                 </li>
                             </ul>
                         </div>
@@ -595,8 +631,9 @@
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Modern Website</h3>
                             <p class="portfolio__description">Website adaptable to all devices, with ui components and
-                                animated interactions.</p>
-                            <a href="#" class="button button--flex button--small portfolio__button">
+                                animated interactions using React . This website design for design interiors </p>
+                            <a href="https://designinteriors.in/"
+                                class="button button--flex button--small portfolio__button">
                                 Demo <i class="uil uil-arrow-right button__icon"></i>
                             </a>
                         </div>
@@ -605,10 +642,11 @@
                     <div class="portfolio__content grid swiper-slide">
                         <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
                         <div class="portfolio__data">
-                            <h3 class="portfolio__title">Brand Design</h3>
-                            <p class="portfolio__description">Website adaptable to all devices, with ui components and
-                                animated interactions.</p>
-                            <a href="#" class="button button--flex button--small portfolio__button">
+                            <h3 class="portfolio__title">Todo App</h3>
+                            <p class="portfolio__description">This Webapp develop by React and Django. Proper Signin and
+                                Signup system authenticated using JWT and every user only seen own todo</p>
+                            <a href="https://todo-495f3.firebaseapp.com/"
+                                class="button button--flex button--small portfolio__button">
                                 Demo <i class="uil uil-arrow-right button__icon"></i>
                             </a>
                         </div>
@@ -618,9 +656,10 @@
                         <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Online Store</h3>
-                            <p class="portfolio__description">Website adaptable to all devices, with ui components and
-                                animated interactions.</p>
-                            <a href="#" class="button button--flex button--small portfolio__button">
+                            <p class="portfolio__description">It is a Ecommerce webapp develop using django. Payment
+                                integration and User authentication is also implemented.</p>
+                            <a href="https://shoppingxly.herokuapp.com/"
+                                class="button button--flex button--small portfolio__button">
                                 Demo <i class="uil uil-arrow-right button__icon"></i>
                             </a>
                         </div>
@@ -656,13 +695,13 @@
         </section>
 
         <!--==================== TESTIMONIAL ====================-->
-        <section class="testimonial section">
+        <!-- <section class="testimonial section">
             <h2 class="section__title">Testimonial</h2>
             <span class="section__subtitle">My client saying</span>
             <div class="testimonial__container container swiper-container">
-                <div class="swiper-wrapper">
-                    <!--==================== TESTIMONIAL 1====================-->
-                    <div class="testimonial__content swiper-slide">
+                <div class="swiper-wrapper"> -->
+        <!--==================== TESTIMONIAL 1====================-->
+        <!-- <div class="testimonial__content swiper-slide">
                         <div class="testimonial__data">
                             <div class="testimonial__header">
                                 <img src="assets/img/testimonial1.jpg" alt="" class="testimonial__img">
@@ -680,9 +719,9 @@
                         </div>
                         <p class="testimonial__description">I get a good impression, I carry out my project with all the
                             possible quality and attention and support 24 hours a day.</p>
-                    </div>
-                    <!--==================== TESTIMONIAL 2====================-->
-                    <div class="testimonial__content swiper-slide">
+                    </div> -->
+        <!--==================== TESTIMONIAL 2====================-->
+        <!-- <div class="testimonial__content swiper-slide">
                         <div class="testimonial__data">
                             <div class="testimonial__header">
                                 <img src="assets/img/testimonial2.jpg" alt="" class="testimonial__img">
@@ -700,9 +739,9 @@
                         </div>
                         <p class="testimonial__description">I get a good impression, I carry out my project with all the
                             possible quality and attention and support 24 hours a day.</p>
-                    </div>
-                    <!--==================== TESTIMONIAL 3====================-->
-                    <div class="testimonial__content swiper-slide">
+                    </div> -->
+        <!--==================== TESTIMONIAL 3====================-->
+        <!-- <div class="testimonial__content swiper-slide">
                         <div class="testimonial__data">
                             <div class="testimonial__header">
                                 <img src="assets/img/testimonial3.jpg" alt="" class="testimonial__img">
@@ -721,11 +760,11 @@
                         <p class="testimonial__description">I get a good impression, I carry out my project with all the
                             possible quality and attention and support 24 hours a day.</p>
                     </div>
-                </div>
-                <!-- Add Pagination -->
-                <div class="swiper-pagination swiper-pagination-testimonial"></div>
+                </div> -->
+        <!-- Add Pagination -->
+        <!-- <div class="swiper-pagination swiper-pagination-testimonial"></div>
             </div>
-        </section>
+        </section> -->
 
         <!--==================== CONTACT ME ====================-->
         <section class="contact section" id="contact">
@@ -737,21 +776,21 @@
                         <i class="uil uil-phone contact__icon"></i>
                         <div>
                             <h3 class="contact__title">Call Me</h3>
-                            <span class="contact__subtitle">123456789</span>
+                            <span class="contact__subtitle">9625438151</span>
                         </div>
                     </div>
                     <div class="contact__information">
                         <i class="uil uil-envelope contact__icon"></i>
                         <div>
                             <h3 class="contact__title">Email</h3>
-                            <span class="contact__subtitle">abc@test.com</span>
+                            <span class="contact__subtitle">rahulsharma9451660093@gmail.com</span>
                         </div>
                     </div>
                     <div class="contact__information">
                         <i class="uil uil-map-marker contact__icon"></i>
                         <div>
                             <h3 class="contact__title">Location</h3>
-                            <span class="contact__subtitle">Banglore</span>
+                            <span class="contact__subtitle">Uttar Pradesh</span>
                         </div>
                     </div>
                 </div>
@@ -791,7 +830,7 @@
             <div class="footer__container container grid">
                 <div>
                     <h1 class="footer__title">Rahul</h1>
-                    <span class="footer__subtitle">Frontent Developer</span>
+                    <span class="footer__subtitle">FullStack Developer</span>
                 </div>
                 <ul class="footer__links">
                     <li><a href="#services" class="footer__link">Services</a></li>
